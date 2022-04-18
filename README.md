@@ -7,7 +7,7 @@ Math Takes the place of "Very Hard" the document takes arguments throught the co
 
 node math [operator] [values]
 
-the operators are written + - * /
+the operators are written + - x /
 So an example would be 
 
 ` node math + 2 4 6 8 10 `
