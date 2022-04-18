@@ -22,7 +22,7 @@ switch (input[0]) {
     case '-': 
         sum = sub(values);
         break;    
-    case '*': 
+    case 'x': 
         sum = mult(values);
         break;  
     case '/': 
@@ -34,5 +34,5 @@ if (sum) {
     console.log(sum)
 }
 else {
-    console.log(`node math [operator] [values] \n Operators are (+, - , * , /)`)
+    console.log(`node math [operator] [values] \n Operators are (+, - , x , /)`)
 }
